@@ -326,7 +326,7 @@ footer {
     display: inline-block;
     margin-top: 16px;
     padding: 10px 24px;
-    background-color: #a678dd; /* lilás médio */
+    background-color: #754FA8; /* lilás médio */
     color: #fff;
     font-weight: 600;
     text-decoration: none;
@@ -337,6 +337,6 @@ footer {
 }
 
 .access-button:hover {
-    background-color: #8f5bc7;
+    background-color: #754FA8;
     transform: translateY(-2px);
 }

@@ -12,8 +12,8 @@ permalink: /projeto1/
     <div class="highlight">
         <strong>Requisitos para a realização:</strong>
         <ul class="topics-list">
-            <li> Arquivo em formato .xlsx ou .csv contendo os dados a serem trabalhados</li>
-            <li> Google Colab</li>
+            <li> Arquivo em formato .xlsx ou .csv contendo os dados a serem trabalhados: </li>
+            <li> Google Colab: https://colab.research.google.com/drive/1a3bxPQxwFgWFqDCtJ7Fat0KJYa_Rx0yv?usp=sharing</li>
         </ul>
     </div>
   </div>

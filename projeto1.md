@@ -5,7 +5,7 @@ permalink: /projeto1/
 ---
 
 <div class="container page-content fade-in">
-    <h1>🧪 Projeto 1 - Conhecendo o Conjunto de Dados</h1>
+    <h1> Projeto 1 - Conhecendo o Conjunto de Dados</h1>
 
     <p>Nesta aula prática, o objetivo é conhecer o conjunto de dados (ou <i>dataset</i>), a partir da utilização básica de bibliotecas como <strong>Pandas</strong>.</p>
 

@@ -10,19 +10,40 @@
   <!-- FUNDO ANIMADO -->
   <div class="network-background">
     <canvas class="network-canvas" id="networkCanvas"></canvas>
-    <!-- Fallback para dispositivos sem Canvas -->
     <div class="particle"></div>
     <div class="particle"></div>
     <div class="particle"></div>
     <div class="particle"></div>
   </div>
 
-  <div class="container page-content fade-in">
-    {{ content }}
+  <div class="container">
+    <header class="fade-in">
+      <h1>🧬 Introdução à Bioinformática</h1>
+      <p class="subtitle">Práticas em Bioinformática aplicadas à toxicologia</p>
+      <p>Aqui estão disponibilizados os materiais didáticos para acompanhamento da aula de Bioinformática aplicada à toxicologia.</p>
+
+      <nav class="nav-menu">
+        <a href="{{ site.baseurl }}/#programming" class="nav-btn">Introdução à Programação</a>
+        <a href="{{ site.baseurl }}/#card1" class="nav-btn">Projeto 1</a>
+        <a href="{{ site.baseurl }}/#card2" class="nav-btn">Projeto 2</a>
+        <a href="{{ site.baseurl }}/#card3" class="nav-btn">Projeto 3</a>
+      </nav>
+    </header>
+
+    <div class="page-content fade-in">
+      {{ content }}
+    </div>
+
+    <footer class="fade-in" style="animation-delay: 1s;">
+      <p>📚 <strong>Material Complementar:</strong> Notebooks Jupyter, datasets e exercícios disponíveis no repositório</p>
+      <p>📧 <strong>Contato:</strong> Dúvidas podem ser enviadas via Issues do GitHub</p>
+      <p style="margin-top: 15px; color: #7f8c8d;">
+        🔬 Desenvolvido por Anne J. Lima Vital | Última atualização: 2025
+      </p>
+    </footer>
   </div>
 
   <script>
-    // ANIMAÇÃO DA REDE DE CONEXÕES
     class NetworkAnimation {
       constructor(canvas) {
         this.canvas = canvas;

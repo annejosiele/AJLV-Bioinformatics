@@ -1,1 +1,120 @@
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+  <!-- FUNDO ANIMADO -->
+  <div class="network-background">
+    <canvas class="network-canvas" id="networkCanvas"></canvas>
+    <!-- Fallback para dispositivos sem Canvas -->
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <div class="container page-content fade-in">
+    {{ content }}
+  </div>
+
+  <script>
+    // ANIMAÇÃO DA REDE DE CONEXÕES
+    class NetworkAnimation {
+      constructor(canvas) {
+        this.canvas = canvas;
+        this.ctx = canvas.getContext('2d');
+        this.particles = [];
+        this.mouse = { x: 0, y: 0 };
+        this.resize();
+        this.createParticles();
+        this.animate();
+        window.addEventListener('resize', () => this.resize());
+        window.addEventListener('mousemove', (e) => {
+          this.mouse.x = e.clientX;
+          this.mouse.y = e.clientY;
+        });
+      }
+
+      resize() {
+        this.canvas.width = window.innerWidth;
+        this.canvas.height = window.innerHeight;
+      }
+
+      createParticles() {
+        const count = Math.floor((this.canvas.width * this.canvas.height) / 15000);
+        this.particles = Array.from({ length: count }, () => ({
+          x: Math.random() * this.canvas.width,
+          y: Math.random() * this.canvas.height,
+          vx: (Math.random() - 0.5) * 0.5,
+          vy: (Math.random() - 0.5) * 0.5,
+          size: Math.random() * 3 + 1,
+          opacity: Math.random() * 0.5 + 0.2
+        }));
+      }
+
+      updateParticles() {
+        this.particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.x < 0 || p.x > this.canvas.width) p.vx *= -1;
+          if (p.y < 0 || p.y > this.canvas.height) p.vy *= -1;
+          const dx = this.mouse.x - p.x;
+          const dy = this.mouse.y - p.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 100) {
+            p.x -= dx * 0.002;
+            p.y -= dy * 0.002;
+          }
+        });
+      }
+
+      drawConnections() {
+        this.ctx.lineWidth = 1;
+        for (let i = 0; i < this.particles.length; i++) {
+          for (let j = i + 1; j < this.particles.length; j++) {
+            const dx = this.particles[i].x - this.particles[j].x;
+            const dy = this.particles[i].y - this.particles[j].y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < 120) {
+              const opacity = (120 - dist) / 120 * 0.2;
+              this.ctx.strokeStyle = `rgba(255,255,255,${opacity})`;
+              this.ctx.beginPath();
+              this.ctx.moveTo(this.particles[i].x, this.particles[i].y);
+              this.ctx.lineTo(this.particles[j].x, this.particles[j].y);
+              this.ctx.stroke();
+            }
+          }
+        }
+      }
+
+      drawParticles() {
+        this.particles.forEach(p => {
+          this.ctx.fillStyle = `rgba(255,255,255,${p.opacity})`;
+          this.ctx.beginPath();
+          this.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+          this.ctx.fill();
+        });
+      }
+
+      animate() {
+        this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        this.updateParticles();
+        this.drawConnections();
+        this.drawParticles();
+        requestAnimationFrame(() => this.animate());
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const canvas = document.getElementById('networkCanvas');
+      if (canvas && canvas.getContext) {
+        new NetworkAnimation(canvas);
+      }
+    });
+  </script>
+</body>
+</html>

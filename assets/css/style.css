@@ -282,15 +282,15 @@ h1 {
     transform: scale(1.2);
 }
 
-footer {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(15px);
-    border-radius: 15px;
-    padding: 20px;
-    margin-top: 30px;
+.footer-custom {
     text-align: center;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 10px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    background: transparent;
+    box-shadow: none;
+    border: none;
 }
 
 @media (max-width: 768px) {

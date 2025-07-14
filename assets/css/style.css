@@ -340,3 +340,14 @@ h1 {
     background-color: #754FA8;
     transform: translateY(-2px);
 }
+
+.home-cards .card {
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-cards .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}

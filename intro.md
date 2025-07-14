@@ -5,9 +5,7 @@ permalink: /programming/
 ---
 <div class="container page-content fade-in">
     <h1>Introdução à Programação</h1>
-
-    <p>Nesta aula prática, o objetivo é conhecer o conjunto de dados (ou <i>dataset</i>), a partir da utilização básica de bibliotecas como <strong>Pandas</strong>.</p>
-    
+  
     <p>A programação, no contexto da ciência da computação, pode ser compreendida como o ato de escrever <strong>códigos</strong>, ou seja, <strong>instruções</strong> (também conhecidas como <strong>algoritmos</strong>), criando programas que possibilitam ao computador realizar tarefas específicas.</p> 
     
     <p>Para isso, são utilizadas <strong>linguagens de programação</strong>, que são as linguagens que o computador compreende. Existem diversas linguagens de programação, como Python, R, C, C#, Ruby, dentre outras. Aqui, o foco será na utilização de <strong>Python</strong>.</p>

@@ -30,10 +30,18 @@
       </nav>
     </header>
 
-    <div class="page-content fade-in" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 25px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);">
-      {{ content }}
-    </div>
-
+     {% if page.url == '/' %}
+      <!-- Página inicial - sem fundo branco -->
+      <div class="fade-in">
+        {{ content }}
+      </div>
+    {% else %}
+      <!-- Páginas secundárias - com fundo branco -->
+      <div class="page-content fade-in" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 25px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);">
+        {{ content }}
+      </div>
+    {% endif %}
+    
     <footer class="footer-custom">
       🔬 <em>Desenvolvido por Anne J. Lima Vital | Última atualização: 2025</em>
     </footer>

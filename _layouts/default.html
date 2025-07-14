@@ -16,28 +16,19 @@
     <div class="particle"></div>
   </div>
 
-<header class="fade-in">
-  <h1>🧬 Introdução à Bioinformática</h1>
-  <p class="subtitle">Práticas em Bioinformática aplicadas à toxicologia</p>
-  <p>Aqui estão disponibilizados os materiais didáticos para acompanhamento da aula de Bioinformática aplicada à toxicologia.</p>
-
-  <nav class="nav-menu">
-    <a href="{{ site.baseurl }}/#programming" class="nav-btn">Introdução à Programação</a>
-    <a href="{{ site.baseurl }}/#card1" class="nav-btn">Projeto 1</a>
-    <a href="{{ site.baseurl }}/#card2" class="nav-btn">Projeto 2</a>
-    <a href="{{ site.baseurl }}/#card3" class="nav-btn">Projeto 3</a>
-  </nav>
-</header>
-
-{% unless page.fullwidth %}
   <div class="container">
-{% endunless %}
-  <div class="page-content fade-in">
-    {{ content }}
-  </div>
-{% unless page.fullwidth %}
-  </div>
-{% endunless %}
+    <header class="fade-in">
+      <h1>🧬 Introdução à Bioinformática</h1>
+      <p class="subtitle">Práticas em Bioinformática aplicadas à toxicologia</p>
+      <p>Aqui estão disponibilizados os materiais didáticos para acompanhamento da aula de Bioinformática aplicada à toxicologia.</p>
+
+      <nav class="nav-menu">
+        <a href="{{ site.baseurl }}/#programming" class="nav-btn">Introdução à Programação</a>
+        <a href="{{ site.baseurl }}/#card1" class="nav-btn">Projeto 1</a>
+        <a href="{{ site.baseurl }}/#card2" class="nav-btn">Projeto 2</a>
+        <a href="{{ site.baseurl }}/#card3" class="nav-btn">Projeto 3</a>
+      </nav>
+    </header>
 
     <div class="page-content fade-in" style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 25px; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);">
       {{ content }}

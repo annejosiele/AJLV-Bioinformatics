@@ -14,36 +14,33 @@ permalink: /projeto2/
             <li>Obter uma entrada PDB relativa a alguma proteína, neste caso, vamos utilizar a entrada <strong>1W0E</strong></li>
         </ul>
     </div>
-
+    
     <p>O arquivo PDB é um repositório de coordenadas atômicas e outras informações que descrevem proteínas e outras macromoléculas biológicas. Acessando a sua interface através da busca de uma entrada, é possível visualizar a estrutura tridimensional, e outras características no cabeçalho, como PDB DOI, classificação, organismos fonte, sistemas de expressão, se há mutação na sequência, as datas de depósito e lançamento no banco, além dos autores responsáveis pelo mesmo.</p>
-
-    <br>
-
-    <p>Também há informações sobre dados experimentais, como o método utilizado na determinação da estrutura, o valor da resolução e gráficos contendo essas métricas. Essa determinação pode ser realizada a partir da utilização de métodos como cristalografia de raios X, espectroscopia de RMN e microscopia crioeletrônica.</p>
-
-    <br>
-
-    <p>Outra importante informação disponibilizada é a referência na literatura sobre a citação primária que descreve a estrutura.</p>
-
-    <br>
-
-    <p>No PDB estão disponíveis estruturas para muitas das proteínas e ácidos nucleicos envolvidos em importantes processos biológicos, sendo possível acessá-lo para encontrar estruturas de ribossomos, oncogenes, alvos de fármacos e até mesmo vírus inteiros.</p>
-
-    <br>
-
-    <p>A entrada <strong>1W0E</strong> foi escolhida para esta prática por se tratar da estrutura cristalográfica do citocromo P450 3A4 humano – o <i>CYP3A4</i> –, muito importante na metabolização de medicamentos.</p>
-
-    <br>
-
-    <p>Existem alguns desafios ao se trabalhar com esse repositório, como o grande volume e diversidade de informações, considerando que há múltiplas estruturas para uma determinada molécula, estruturas parciais, estruturas que foram modificadas ou inativadas de sua forma nativa, pode dificultar a localização das mais adequadas para cada tipo de pesquisa.</p>
-
-    <br>
-
-    <p>Desta forma, o Protein Data Bank é um importante banco de dados para trabalhos em bioinformática, principalmente na área da bioinformática estrutural, apresentando uma boa infraestrutura e integração de dados biológicos, além de dispor de uma enorme variedade de moléculas.</p>
-   
     <br>
     
-    <p>Fontes: PDB-101 - https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/pdb-overview </p> ; PDB - https://www.rcsb.org . </p>
-
+    <p>Também há informações sobre dados experimentais, como o método utilizado na determinação da estrutura, o valor da resolução e gráficos contendo essas métricas. Essa determinação pode ser realizada a partir da utilização de métodos como cristalografia de raios X, espectroscopia de RMN e microscopia crioeletrônica.</p>
+    <br>
+    
+    <p>Outra importante informação disponibilizada é a referência na literatura sobre a citação primária que descreve a estrutura.</p>
+    <br>
+    
+    <p>No PDB estão disponíveis estruturas para muitas das proteínas e ácidos nucleicos envolvidos em importantes processos biológicos, sendo possível acessá-lo para encontrar estruturas de ribossomos, oncogenes, alvos de fármacos e até mesmo vírus inteiros.</p>
+    <br>
+    
+    <p>A entrada <strong>1W0E</strong> foi escolhida para esta prática por se tratar da estrutura cristalográfica do citocromo P450 3A4 humano – o <i>CYP3A4</i> –, muito importante na metabolização de medicamentos.</p>
+    <br>
+    
+    <p>Existem alguns desafios ao se trabalhar com esse repositório, como o grande volume e diversidade de informações, considerando que há múltiplas estruturas para uma determinada molécula, estruturas parciais, estruturas que foram modificadas ou inativadas de sua forma nativa, pode dificultar a localização das mais adequadas para cada tipo de pesquisa.</p>
+    <br>
+    
+    <p>Desta forma, o Protein Data Bank é um importante banco de dados para trabalhos em bioinformática, principalmente na área da bioinformática estrutural, apresentando uma boa infraestrutura e integração de dados biológicos, além de dispor de uma enorme variedade de moléculas.</p>
+    <br>
+    
+    <h2>Fontes</h2>
+    <ul class="topics-list">
+        <li>PDB-101 - <a href="https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/pdb-overview" target="_blank">https://pdb101.rcsb.org/learn/guide-to-understanding-pdb-data/pdb-overview</a></li>
+        <li>RCSB PDB - <a href="https://www.rcsb.org" target="_blank">https://www.rcsb.org</a></li>
+    </ul>
+    
     <a href="/AJLV-Bioinformatics/" class="access-button">← Voltar para a página inicial</a>
 </div>

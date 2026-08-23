@@ -379,19 +379,26 @@ h1 a {
     backdrop-filter: none;
     border-radius: 0;
     padding: 0;
-    margin-bottom: 0;
+    margin: 0;
     box-shadow: none;
     border: none;
     text-align: initial;
-    width: 100%;
+    width: 100vw;
+    max-width: 100vw;
     overflow: hidden;
-    height: clamp(140px, 22vw, 320px);
+    height: clamp(120px, 20vw, 280px);
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 .banner-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center;
     display: block;
 }
 

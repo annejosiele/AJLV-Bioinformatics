@@ -143,17 +143,20 @@ h1 {
 
 .nav-btn {
     background: linear-gradient(45deg, #667eea, #764ba2);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     color: white;
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: 600;
     text-decoration: none;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.25);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .nav-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.35);
+    box-shadow: 0 6px 18px rgba(102, 126, 234, 0.4);
 }
 
 .lang-switch {

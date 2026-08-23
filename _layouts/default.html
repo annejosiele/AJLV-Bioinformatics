@@ -25,10 +25,16 @@
 </header>
 
 <nav class="nav-menu">
-  <a href="{{ site.baseurl }}/" class="nav-btn">Início</a>
-  <a href="{{ site.baseurl }}/sobre" class="nav-btn">Sobre mim</a>
-  <a href="{{ site.baseurl }}/trilhas" class="nav-btn">Trilhas</a>
-  <a href="{{ site.baseurl }}/en" class="nav-btn">EN</a>
+  <div class="nav-links">
+    <a href="{{ site.baseurl }}/" class="nav-btn">Início</a>
+    <a href="{{ site.baseurl }}/sobre" class="nav-btn">Sobre mim</a>
+    <a href="{{ site.baseurl }}/trilhas" class="nav-btn">Trilhas</a>
+  </div>
+
+  <div class="lang-switch">
+    <a href="{{ site.baseurl }}/" class="lang-btn active">PT-BR</a>
+    <a href="{{ site.baseurl }}/en" class="lang-btn">EN</a>
+  </div>
 </nav>
 
 <div class="container">

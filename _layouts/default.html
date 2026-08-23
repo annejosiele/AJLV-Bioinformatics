@@ -17,18 +17,20 @@
     <div class="particle"></div>
   </div>
 
-  <div class="container">
-    <header class="fade-in">
-    <h1><a href="{{ site.baseurl }}/">🧬 Introdução à Bioinformática</a></h1>
-      <p class="subtitle">Práticas em Bioinformática aplicadas à toxicologia</p>
-      <p>Aqui estão disponibilizados os materiais didáticos para acompanhamento da aula de Bioinformática aplicada à toxicologia.</p>
+<header class="site-banner fade-in">
+  <a href="{{ site.baseurl }}/">
+    <img src="{{ site.baseurl }}/assets/figures/header2.webp" alt="AJLV Bioinformatics" class="banner-img">
+  </a>
+</header>
 
-      <nav class="nav-menu">
-        <a href="{{ site.baseurl }}/#programming" class="nav-btn">Introdução à Programação</a>
-        <a href="{{ site.baseurl }}/#card1" class="nav-btn">Projeto 1</a>
-        <a href="{{ site.baseurl }}/#card2" class="nav-btn">Projeto 2</a>
-      </nav>
-    </header>
+<nav class="nav-menu">
+  <a href="{{ site.baseurl }}/" class="nav-btn">Início</a>
+  <a href="{{ site.baseurl }}/sobre" class="nav-btn">Sobre mim</a>
+  <a href="{{ site.baseurl }}/trilhas" class="nav-btn">Trilhas</a>
+  <a href="{{ site.baseurl }}/en" class="nav-btn">EN</a>
+</nav>
+
+<div class="container">
 
      {% if page.url == '/' %}
       <!-- Página inicial - sem fundo branco -->

@@ -142,21 +142,18 @@ h1 {
 }
 
 .nav-btn {
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(102, 126, 234, 0.25);
-    color: #4a3f8f;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: 600;
     text-decoration: none;
-    transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .nav-btn:hover {
-    background: rgba(255, 255, 255, 0.85);
-    box-shadow: 0 4px 14px rgba(102, 126, 234, 0.3);
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.35);
 }
 
 .lang-switch {

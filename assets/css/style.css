@@ -158,9 +158,7 @@ h1 {
 
 .lang-switch {
     display: flex;
-    border: 1px solid rgba(102, 126, 234, 0.3);
-    border-radius: 8px;
-    overflow: hidden;
+    gap: 8px; /* separa os dois em vez de colar */
 }
 
 .lang-btn {
@@ -170,17 +168,23 @@ h1 {
     letter-spacing: 0.03em;
     color: #667eea;
     text-decoration: none;
-    background: rgba(255, 255, 255, 0.7);
-    transition: background 0.2s ease, color 0.2s ease;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(102, 126, 234, 0.25);
+    border-radius: 8px; /* cada um agora tem cantos próprios */
+    transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
 }
 
 .lang-btn.active {
     background: linear-gradient(45deg, #667eea, #764ba2);
     color: white;
+    border-color: transparent;
 }
 
 .lang-btn:not(.active):hover {
-    background: rgba(102, 126, 234, 0.1);
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 14px rgba(102, 126, 234, 0.25);
+    transform: translateY(-1px);
 }
 
 .content-grid {

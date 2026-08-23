@@ -400,6 +400,7 @@ h1 a {
     object-fit: cover;
     object-position: center;
     display: block;
+    opacity: 0.85;
 }
 
 h1 a:hover {

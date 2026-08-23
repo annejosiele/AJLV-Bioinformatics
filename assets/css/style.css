@@ -384,14 +384,15 @@ h1 a {
     border: none;
     text-align: initial;
     width: 100%;
-    line-height: 0;
+    overflow: hidden;
+    height: clamp(140px, 22vw, 320px);
 }
 
 .banner-img {
     width: 100%;
-    height: auto;
-    display: block;
+    height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 h1 a:hover {

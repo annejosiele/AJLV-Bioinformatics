@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projeto 1 - Conhecendo o Conjunto de Dados
-permalink: /projeto1/
+permalink: /bioinformatica/projeto1/
 ---
 
 <div class="container page-content fade-in">

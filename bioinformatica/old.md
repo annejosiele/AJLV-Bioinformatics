@@ -1,0 +1,40 @@
+<div class="content-grid home-cards">
+  <div class="card fade-in" id="programming" style="animation-delay: 0.4s;">
+    <h2>Introdução à Programação</h2>
+    <p>Aqui você terá acesso a alguns conteúdos básicos sobre programação, para que a realização dos projetos seja mais intuitiva e simples.</p>
+    <div class="highlight">
+      <strong>Tópicos abordados:</strong>
+      <ul class="topics-list">
+        <li>Apresentando: Python</li>
+        <li>Estrutura básica</li>
+        <li>O que são bibliotecas?</li>
+      </ul>
+    </div>
+    <a class="access-button" href="/AJLV-Bioinformatics/programming">Acessar</a>
+  </div>
+  
+  <div class="card fade-in" id="card1" style="animation-delay: 0.4s;">
+    <h2>Projeto 1 - Conhecendo o Conjunto de Dados</h2>
+    <p>Nesta aula prática, o objetivo é conhecer o conjunto de dados (ou <i>dataset</i>), a partir da utilização básica de bibliotecas como <i>Pandas</i></p>
+    <div class="highlight">
+      <strong>Requisitos para a realização:</strong>
+      <ul class="topics-list">
+        <li>Arquivo em formato .xlsx ou .csv contendo os dados a serem trabalhados</li>
+        <li>Google Colab</li>
+      </ul>
+    </div>
+    <a class="access-button" href="/AJLV-Bioinformatics/projeto1">Acessar Projeto 1</a>
+  </div>
+  
+  <div class="card fade-in" id="card2" style="animation-delay: 0.6s;">
+    <h2>Projeto 2 - Visualização de proteínas com o PDB</h2>
+    <p>Nesta prática, você utilizará o banco de dados Protein Data Bank (PDB) para visualizar diferentes estruturas de proteínas.</p>
+    <div class="highlight">
+      <strong>Requisitos para a realização:</strong>
+      <ul class="topics-list">
+        <li>Acesso ao PDB: https://www.rcsb.org</li>
+        <li>Entrada de uma proteína de preferência.</li>
+      </ul>
+    </div>
+    <a class="access-button" href="/AJLV-Bioinformatics/projeto2">Acessar Projeto 2</a>
+  </div>

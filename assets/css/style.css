@@ -442,3 +442,22 @@ h1 a:hover {
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+.article-cta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px; /* separa visualmente do botão de trilhas abaixo */
+}
+
+.publisher-logo {
+    height: 28px;
+    width: auto;
+    display: block;
+}
+
+@media (max-width: 480px) {
+    .article-cta {
+        flex-wrap: wrap;
+    }
+}

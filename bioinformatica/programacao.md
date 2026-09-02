@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introdução à Programação
-permalink: /programming/
+permalink: /bioinformatica/programacao/
 ---
 <div class="container page-content fade-in">
     <h1>Introdução à Programação</h1>

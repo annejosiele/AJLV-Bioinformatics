@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projeto 2 - Visualização de proteínas com o PDB
-permalink: /projeto2/
+permalink: /bioinformatica/projeto2/
 ---
 <div class="container page-content fade-in">
     <h1>Aula Prática: Protein Data Bank (PDB)</h1>

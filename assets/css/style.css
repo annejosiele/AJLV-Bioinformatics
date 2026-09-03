@@ -461,3 +461,30 @@ h1 a:hover {
         flex-wrap: wrap;
     }
 }
+
+.about-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.about-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 16px;
+    flex-wrap: wrap;
+}

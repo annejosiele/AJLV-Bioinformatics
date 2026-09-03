@@ -472,8 +472,6 @@ h1 a:hover {
 .about-photo {
     width: 140px;
     height: auto;
-    max-height: 180px;
-    object-fit: contain;
     border-radius: 16px;
     flex-shrink: 0;
 }

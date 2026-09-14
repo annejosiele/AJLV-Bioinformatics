@@ -10,10 +10,10 @@ meta-viewport: width=device-width, initial-scale=1.0
 
 Fundamentos de programação e prática com dados biológicos.
 
-[Explorar trilha →]({{ site.baseurl }}/bioinformatica/trilha1.md){: class="access-button" }
+[Explorar trilha →](/bioinformatica/trilha1.md){: class="access-button" }
 
 ## ☠️ Toxicologia Computacional
 
 Da estrutura molecular à predição de toxicidade.
 
-[Explorar trilha →]({{ site.baseurl }}/toxicologia/trilha2.md){: class="access-button" }
+[Explorar trilha →](/toxicologia/trilha2.md){: class="access-button" }

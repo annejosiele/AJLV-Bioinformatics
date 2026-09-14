@@ -1,6 +1,6 @@
 ---
 title: Trilha - Introdução à Bioinformática
-permalink: /bioinformatica/
+permalink: /bioinformatica/trilha1.md
 meta-viewport: width=device-width, initial-scale=1.0
 ---
  

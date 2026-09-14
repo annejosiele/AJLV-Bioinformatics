@@ -1,5 +1,9 @@
 title: Práticas em Bioinformática
 description: Materiais didáticos aplicados à toxicologia
+
+url: "https://annejosiele.github.io"
+baseurl: "/AJLV-Bioinformatics"
+
 markdown: kramdown
 permalink: pretty
 

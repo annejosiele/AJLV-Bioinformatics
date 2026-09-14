@@ -33,13 +33,13 @@ A notação textual mais amplamente utilizada na quimioinformática é o SMILES 
 - **Ligações**: Ligações simples são implícitas; ligações duplas usam `=` (ex: C=O) e triplas usam `#` (ex: C#N).
 - **Ramificações**: Enclausuradas entre parênteses. Por exemplo, o etanol é representado por `CCO`, enquanto o isopropanol é `CC(C)O`.
 - **Anéis**: Indicados por números logo após os átomos onde o anel se fecha. Por exemplo, o benzeno é representado por `c1ccccc1`.
+
 | Composto | Estrutura 2D | SMILES |
 |---|---|---|
-| Etanol | *(inserir imagem 2D)* | `CCO` |
-| Isopropanol | *(inserir imagem 2D)* | `CC(C)O` |
-| Benzeno | *(inserir imagem 2D)* | `c1ccccc1` |
+| Etanol | <img src="/assets/figures/Ethanol.png" width="80"> | `CCO` |
+| Isopropanol | <img src="/assets/figures/Isopropanol.png" width="80"> | `CC(C)O` |
+| Benzeno | <img src="/assets/figures/Benzene.png" width="80"> | `c1ccccc1` |
  
-<!-- TODO: substituir "(inserir imagem 2D)" pelas estruturas renderizadas (dá pra gerar com Draw.MolsToGridImage do RDKit e exportar como imagem) -->
  
 O formato SMILES permite armazenar e recuperar milhões de estruturas em bancos de dados rapidamente, ocupando pouquíssimo espaço de memória.
  

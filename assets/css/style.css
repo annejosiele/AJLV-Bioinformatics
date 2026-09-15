@@ -487,3 +487,28 @@ h1 a:hover {
 .about-links {
     margin-top: 16px;
 }
+
+h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+h3 {
+    margin-top: 1.75rem;
+    margin-bottom: 0.75rem;
+    color: #2c3e50;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+ul, ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+table {
+    margin-bottom: 1.5rem;
+}

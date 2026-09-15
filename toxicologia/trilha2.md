@@ -36,9 +36,9 @@ A notação textual mais amplamente utilizada na quimioinformática é o SMILES 
 
 | Composto | Estrutura 2D | SMILES |
 |---|---|---|
-| Etanol | <img src="/assets/figures/ethanol.webp" width="80"> | `CCO` |
-| Isopropanol | <img src="/assets/figures/isopropanol.webp" width="80"> | `CC(C)O` |
-| Benzeno | <img src="/assets/figures/benzene.webp" width="80"> | `c1ccccc1` |
+| Etanol | <img src="{{/assets/figures/ethanol.webp | relative url }}" width="80"> | `CCO` |
+| Isopropanol | <img src="{{/assets/figures/isopropanol.webp | relative url }}" width="80"> | `CC(C)O` |
+| Benzeno | <img src="{{/assets/figures/benzene.webp | relative url}}" width="80"> | `c1ccccc1` |
  
  
 O formato SMILES permite armazenar e recuperar milhões de estruturas em bancos de dados rapidamente, ocupando pouquíssimo espaço de memória.

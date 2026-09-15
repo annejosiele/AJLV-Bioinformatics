@@ -17,7 +17,7 @@ Para prever a toxicidade de um composto in silico, utilizam-se diferentes métod
  
 <img src="{{ '/assets/figures/abordagens_insilico.webp' | relative_url }}" width="500" alt="Diferentes abordagens em toxicologia computacional">
 
-*Fonte: [Revista Bioinfo](https://bioinfo.com.br/a-toxicologia-in-silico-no-desenvolvimento-de-farmacos-um-caminho-etico-e-inovador-na-avaliacao-de-seguranca/)*
+*Fonte: VITAL _et al_, 2026 [Revista Bioinfo](https://bioinfo.com.br/a-toxicologia-in-silico-no-desenvolvimento-de-farmacos-um-caminho-etico-e-inovador-na-avaliacao-de-seguranca/)*
 
 ## Como o Computador "Enxerga" uma Molécula Química?
  
@@ -58,6 +58,7 @@ Integrado principalmente à linguagem Python, o RDKit permite:
 - Calcular descritores moleculares físico-químicos e gerar fingerprints moleculares para modelos preditivos.
 Desta forma, chegou o momento de dar vida aos conceitos! Partimos agora para a nossa aula prática em toxicologia computacional, onde você verá como a teoria se traduz em linhas de código e dados reais. Nessa etapa, você irá manipular estruturas digitais e vivenciar como a inteligência computacional é aplicada na avaliação de compostos químicos.
  
-*Continue para a Prática 1 – Primeiros Passos no Processamento de Moléculas In Silico*
- 
-<!-- TODO: quando a página de prática (com o notebook do Colab) estiver publicada, transforme a linha acima em link -->
+<div class="nav-buttons">
+  <a href="{{ site.baseurl }}/bioinformatica/" class="btn-back">← Trilha anterior</a>
+  <a href="{{ site.baseurl }}/toxicologia/pratica/" class="nav-btn">Prática 1 →</a>
+</div>

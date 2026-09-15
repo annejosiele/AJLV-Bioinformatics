@@ -106,4 +106,7 @@ Para traduzir essa estrutura em dados numéricos manipuláveis por algoritmos, c
  
 Nas próximas etapas desta jornada, faremos a ponte teórica entre a biologia e a ciência da computação. Você irá conhecer diferentes abordagens in silico para a avaliação de segurança de compostos e compreender como o computador interpreta uma molécula química, desde a sua codificação em notações textuais até o papel conceitual de ferramentas de quimioinformática.
  
-*Continue para a [Trilha 2 – Toxicologia Computacional](https://annejosiele.github.io/AJLV-Bioinformatics/toxicologia/) quando estiver pronto para aplicar esses conceitos na prática.*
+<div class="nav-buttons">
+  <a href="{{ site.baseurl }}/" class="btn-back">← Página inicial</a>
+  <a href="{{ site.baseurl }}/toxicologia/" class="nav-btn">Próxima trilha →</a>
+</div>

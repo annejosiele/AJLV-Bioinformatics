@@ -159,6 +159,43 @@ h1 {
     box-shadow: 0 6px 18px rgba(102, 126, 234, 0.4);
 }
 
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 2.5rem 0 1rem;
+    flex-wrap: wrap;
+}
+
+.nav-buttons .btn-back {
+    color: #667eea;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(102, 126, 234, 0.25);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.nav-buttons .btn-back:hover {
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 14px rgba(102, 126, 234, 0.25);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 600px) {
+    .nav-buttons {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+    .nav-buttons a {
+        text-align: center;
+    }
+}
+
 .lang-switch {
     display: flex;
     gap: 8px; /* separa os dois em vez de colar */

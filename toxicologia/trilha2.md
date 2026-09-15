@@ -17,7 +17,7 @@ Para prever a toxicidade de um composto in silico, utilizam-se diferentes métod
  
 <img src="{{ '/assets/figures/abordagens_insilico.webp' | relative_url }}" width="500" alt="Diferentes abordagens em toxicologia computacional">
 
-*Fonte: VITAL _et al_, 2026 [Revista Bioinfo](https://bioinfo.com.br/a-toxicologia-in-silico-no-desenvolvimento-de-farmacos-um-caminho-etico-e-inovador-na-avaliacao-de-seguranca/)*
+*Fonte: VITAL et al, 2026 [Revista Bioinfo](https://bioinfo.com.br/a-toxicologia-in-silico-no-desenvolvimento-de-farmacos-um-caminho-etico-e-inovador-na-avaliacao-de-seguranca/)*
 
 ## Como o Computador "Enxerga" uma Molécula Química?
  

@@ -227,6 +227,11 @@ h1 {
     transform: translateY(-1px);
 }
 
+.lang-switch-placeholder {
+    height: 36px;        /* mesma altura dos botões de idioma */
+    visibility: hidden;
+}
+
 .content-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));

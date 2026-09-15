@@ -30,4 +30,5 @@ Nesta aula prática, você vai transformar os conceitos da trilha anterior em a�
 
 Depois dessa aula prática, você estará preparado para avançar em etapas mais aplicadas de toxicologia computacional, incluindo análise de propriedades, comparação de compostos e exploração de bases de dados químicas.
 
-[Voltar para a trilha]({{ site.baseurl }}/toxicologia/)
+<div class="nav-buttons">
+  <a href="{{ site.baseurl }}/toxicologia/" class="btn-back">← Trilha anterior</a>

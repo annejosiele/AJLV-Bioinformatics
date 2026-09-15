@@ -27,6 +27,7 @@ Existem diferentes formas de traduzir a química para o ambiente digital:
  
 1. **Tabelas de Conexão (Formatos de Arquivo)**: Arquivos como `.mol` ou `.sdf` armazenam as coordenadas de cada átomo no espaço (x,y,z) e uma matriz que indica quais átomos estão conectados por ligações químicas.
 2. **Notações de String (Texto)**: Códigos em texto puro que condensam toda a conectividade e estereoquímica da molécula em uma única linha de caracteres.
+
 ## Representação Molecular via SMILES
  
 A notação textual mais amplamente utilizada na quimioinformática é o SMILES (Simplified Molecular Input Line Entry System). O SMILES converte a estrutura química em uma sequência legível por computador usando regras simples:

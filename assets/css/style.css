@@ -511,4 +511,25 @@ ul, ol {
 
 table {
     margin-bottom: 1.5rem;
+    border-collapse: collapse;   /* junta as bordas das células */
+    width: 100%;                 /* opcional: ocupa toda a largura */
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;      /* a borda propriamente dita */
+    padding: 0.5rem 0.75rem;     /* espaçamento interno */
+    text-align: left;
+}
+
+table th {
+    background-color: #f5f5f5;   /* cabeçalho destacado (opcional) */
+    font-weight: bold;
+}
+
+table td img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }

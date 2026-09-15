@@ -19,6 +19,7 @@ A bioinformática possui, principalmente, três grandes pilares:
 - **Biologia**: base para as perguntas científicas, fornece o contexto e gera os dados brutos.
 - **Ciência da Computação**: base para o desenvolvimento dos algoritmos, bancos de dados e softwares necessários para armazenar e processar esse alto volume de dados.
 - **Matemática e Estatística**: fornece os modelos probabilísticos e a rigorosidade analítica para garantir que os padrões encontrados façam sentido e tenham relevância científica.
+
 ## As várias faces da bioinformática
  
 A bioinformática é um campo extremamente diverso e multifacetado, com aplicações consolidadas em grandes setores da sociedade, como a agronomia e produção agrícola, onde pode auxiliar, atuando no melhoramento genético de culturas e no desenvolvimento de cultivares mais resistentes; saúde humana e animal, na descoberta de diagnósticos avançados, rastreamento de epidemias e medicina de precisão; além das várias aplicações em biotecnologia e meio ambiente.
@@ -37,6 +38,7 @@ Antes de escrever qualquer código, vale a pena entender algumas ideias fundamen
 - **Função**: é um bloco de código reutilizável projetado para executar uma tarefa específica.
 - **Script**: um código que reúne comandos e instruções para um programa executar determinadas tarefas automaticamente, como uma receita completa que possui várias etapas e funções organizados sequencialmente, salvos em um arquivo para ser executado quantas vezes desejar.
 - **Dataset (conjunto de dados)**: uma tabela organizada de dados, onde cada linha geralmente representa um item/entidade (um composto, um paciente, um gene) e cada coluna, uma característica dele.
+
 ### Linguagens de programação
  
 Uma linguagem de programação é uma forma padronizada de "conversar" com o computador, sendo um conjunto de regras que traduz o que queremos em uma instrução que a máquina consegue executar.
@@ -68,6 +70,7 @@ Algumas bibliotecas que vamos usar ao longo do curso:
 - **RDKit**: biblioteca especializada em química computacional, capaz de ler estruturas moleculares e calcular propriedades a partir delas.
 - **NumPy**: fornece operações matemáticas rápidas para grandes quantidades de números.
 - **Matplotlib**: gera gráficos a partir dos dados, ajudando a enxergar padrões que uma tabela de números sozinha não mostra.
+
 ## Bancos de dados, big data e curadoria
  
 Um banco de dados é um repositório estruturado, organizado e pesquisável que armazena informações científicas de forma padronizada. Alguns dos principais bancos de dados públicos e amplamente utilizados incluem:
@@ -103,6 +106,4 @@ Para traduzir essa estrutura em dados numéricos manipuláveis por algoritmos, c
  
 Nas próximas etapas desta jornada, faremos a ponte teórica entre a biologia e a ciência da computação. Você irá conhecer diferentes abordagens in silico para a avaliação de segurança de compostos e compreender como o computador interpreta uma molécula química, desde a sua codificação em notações textuais até o papel conceitual de ferramentas de quimioinformática.
  
-*Continue para a Trilha 2 – Toxicologia Computacional quando estiver pronto para aplicar esses conceitos na prática.*
-
-<!-- TODO: quando a página de Toxicologia Computacional (provavelmente permalink: /toxicologia/) estiver publicada, transforme a linha acima em link, ex: [Trilha 2 – Toxicologia Computacional](/toxicologia/) -->
+*Continue para a [Trilha 2 – Toxicologia Computacional](https://annejosiele.github.io/AJLV-Bioinformatics/toxicologia/) quando estiver pronto para aplicar esses conceitos na prática.*

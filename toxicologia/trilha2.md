@@ -15,8 +15,10 @@ Avaliar a segurança de uma substância química tradicionalmente exige ensaios 
  
 Para prever a toxicidade de um composto in silico, utilizam-se diferentes métodos, a depender da pergunta biológica e de aspectos relativos aos dados, como a quantidade:
  
-<!-- TODO: inserir aqui a imagem da Revista Bioinfo, com o link/crédito da publicação -->
- 
+<img src="{{ '/assets/figures/abordagens_insilico.webp' | relative_url }}" width="500" alt="Diferentes abordagens em toxicologia computacional">
+
+*Fonte: [Revista Bioinfo](https://bioinfo.com.br/a-toxicologia-in-silico-no-desenvolvimento-de-farmacos-um-caminho-etico-e-inovador-na-avaliacao-de-seguranca/)*
+
 ## Como o Computador "Enxerga" uma Molécula Química?
  
 Para um ser humano, a forma mais natural de representar uma molécula é por meio de um desenho bidimensional ou um modelo tridimensional. Já para computadores, são necessárias representações matemáticas e textuais bem definidas.

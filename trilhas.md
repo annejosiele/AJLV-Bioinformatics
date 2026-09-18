@@ -8,12 +8,12 @@ meta-viewport: width=device-width, initial-scale=1.0
 
 ## 🧬 Introdução à Bioinformática
 
-Fundamentos de programação e prática com dados biológicos.
+Fundamentos em bioinformática.
 
 [Explorar trilha →]({{ site.baseurl }}/bioinformatica/){: class="access-button" }
 
 ## ☠️ Toxicologia Computacional
 
-Da estrutura molecular à predição de toxicidade.
+Da estrutura molecular à predição de toxicidade. Compreende a atividade prática.
 
 [Explorar trilha →]({{ site.baseurl }}/toxicologia/){: class="access-button" }

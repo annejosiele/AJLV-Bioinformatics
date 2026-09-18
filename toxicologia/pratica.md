@@ -24,6 +24,7 @@ Nesta aula prática, você vai transformar os conceitos da trilha anterior em a�
 
 ## Outros recursos úteis
 - [Documentação RDKit](https://www.rdkit.org)
+- [Referências](https://docs.google.com/document/d/1FbxLcg5xFITImQi833hGiGcisVL1AmMayPc_e_0Tfvw/edit?usp=sharing)
 
 
 ## Próximos passos

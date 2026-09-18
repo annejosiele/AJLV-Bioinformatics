@@ -105,6 +105,8 @@ O fundamento básico dessa abordagem reside na relação entre a estrutura quím
 Para traduzir essa estrutura em dados numéricos manipuláveis por algoritmos, calculam-se os chamados descritores moleculares. Propriedades físico-químicas como massa molar, coeficiente de partição, área de superfície polar e capacidade de formar ligações de hidrogênio funcionam como uma assinatura da molécula, permitindo estimar parâmetros de absorção, distribuição, metabolismo, excreção e toxicidade (ADMET) antes mesmo de qualquer ensaio in vitro ou in vivo.
  
 Nas próximas etapas desta jornada, faremos a ponte teórica entre a biologia e a ciência da computação. Você irá conhecer diferentes abordagens in silico para a avaliação de segurança de compostos e compreender como o computador interpreta uma molécula química, desde a sua codificação em notações textuais até o papel conceitual de ferramentas de quimioinformática.
+
+- [Referências](https://docs.google.com/document/d/1FbxLcg5xFITImQi833hGiGcisVL1AmMayPc_e_0Tfvw/edit?usp=sharing)
  
 <div class="nav-buttons">
   <a href="{{ site.baseurl }}/" class="btn-back">← Página inicial</a>

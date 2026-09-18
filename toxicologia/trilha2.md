@@ -57,6 +57,8 @@ Integrado principalmente à linguagem Python, o RDKit permite:
 - Gerar representações 2D e 3D de moléculas.
 - Calcular descritores moleculares físico-químicos e gerar fingerprints moleculares para modelos preditivos.
 Desta forma, chegou o momento de dar vida aos conceitos! Partimos agora para a nossa aula prática em toxicologia computacional, onde você verá como a teoria se traduz em linhas de código e dados reais. Nessa etapa, você irá manipular estruturas digitais e vivenciar como a inteligência computacional é aplicada na avaliação de compostos químicos.
+
+- [Referências](https://docs.google.com/document/d/1FbxLcg5xFITImQi833hGiGcisVL1AmMayPc_e_0Tfvw/edit?usp=sharing)
  
 <div class="nav-buttons">
   <a href="{{ site.baseurl }}/bioinformatica/" class="btn-back">← Trilha anterior</a>
